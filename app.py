@@ -32,8 +32,8 @@ def generate():
     # ==== Photo Placement Config ====
     photo_x = 596
     photo_y = 433
-    photo_width = 243
-    photo_height = 249
+    photo_width = 286
+    photo_height = 285
     photo_shape = 'rounded'
 
     # Load uploaded image
