@@ -30,8 +30,8 @@ def generate():
     base_width, base_height = base.size
 
     # ==== Photo Placement Config ====
-    photo_x = 158
-    photo_y = 324
+    photo_x = 596
+    photo_y = 433
     photo_width = 243
     photo_height = 249
     photo_shape = 'rounded'
@@ -83,15 +83,15 @@ def generate():
     draw = ImageDraw.Draw(base)
     try:
         font_size = int(base_width * 0.045)
-        font = ImageFont.truetype('fonts/Poppins-Medium.ttf', size=font_size)
+        font = ImageFont.truetype('fonts/Poppins-SemiBold.ttf', size=font_size)
     except:
         font = ImageFont.load_default()
 
-    text_color = "#914f26"
+    text_color = "#d5e6e2"
     line_spacing = int(font_size * 1)
 
-    text_area_x = 75
-    text_area_y = 515
+    text_area_x = 530
+    text_area_y = 656
     text_area_width = 412
     text_area_height = 268
 
